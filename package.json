@@ -1,10 +1,9 @@
 {
   "private": true,
-  "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "vercel-build": "npm run build"
+    "vercel-build": "vite build && php artisan config:clear && php artisan cache:clear && php artisan route:clear && php artisan view:clear"
   },
   "devDependencies": {
     "axios": "^1.1.2",

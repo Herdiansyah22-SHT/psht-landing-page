@@ -1,6 +1,5 @@
 {
   "version": 2,
-  "framework": null,
   "functions": {
     "api/index.php": {
       "runtime": "vercel-php@0.7.3"
@@ -12,12 +11,11 @@
       "dest": "/api/index.php"
     }
   ],
-  "outputDirectory": "public/build",
   "env": {
     "APP_NAME": "PSHT Banjarkemantren",
     "APP_ENV": "production",
     "APP_DEBUG": "false",
-    "APP_URL": "https://nama-project-anda.vercel.app",
+    "APP_URL": "https://psht-landing-page-mbcg-aqlhhjfon-herdiansyah-s-projects.vercel.app",
     "LOG_CHANNEL": "stderr",
     "CACHE_DRIVER": "array",
     "SESSION_DRIVER": "cookie",
