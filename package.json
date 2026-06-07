@@ -3,7 +3,7 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "vercel-build": "vite build && php artisan config:clear && php artisan cache:clear && php artisan route:clear && php artisan view:clear"
+    "vercel-build": "vite build"
   },
   "devDependencies": {
     "axios": "^1.1.2",
